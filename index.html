@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Matrix Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/favicon.ico">
+</head>
+<body>
+  <div class="container">
+    <h1>Matrix Calculator</h1>
+    <div class="input">
+      <label for="rows">Number of rows:</label>
+      <input type="number" id="rows" min="1" max="10" value="3">
+      <label for="cols">Number of columns:</label>
+      <input type="number" id="cols" min="1" max="10" value="3">
+      <button onclick="createMatrix()">Create Matrix</button>
+      <div id="matrixContainer"></div>
+    </div>
+    <div class="buttons">
+      <button onclick="calculateRREF()">Calculate RREF</button>
+      <button onclick="calculateDeterminant()">Calculate Determinant</button>
+      <button onclick="calculateRank()">Calculate Rank</button>
+      <button onclick="calculateInverse()">Calculate Inverse</button>
+      <button onclick="clearMatrix()">Clear</button>
+    </div>
+    <div class="output">
+      <label for="result">Result:</label>
+      <textarea id="result" rows="6" cols="40" readonly></textarea>
+    </div>
+  </div>
+ 
+  <script src="script.js"></script>
+  <footer>
+        <p>&copy; 2023 <a href="https://github.com/dudum98" class="github-link">https://github.com/dudum98</a>. All rights reserved.</p>
+        <p class="matrix">Programmed with Matrix-inspired precision</p>
+    </footer>
+
+
+</body>
+</html> 

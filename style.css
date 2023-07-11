@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #335332;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin:auto;
+    padding: 20px;
+    background-color: #191a19;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(96, 216, 96);
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #00ff00;
+  }
+  
+  input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #00ff00;
+    background-color: #111;
+    color: #00ff00;
+  }
+  
+  .buttons {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .buttons button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00ff00;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .buttons button.clear {
+    margin-left: 10px;
+    background-color: #ff0000;
+  }
+  
+  .output {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 4px;
+    resize: none;
+    border: 1px solid #00ff00;
+    border-radius: 4px;
+    background-color: #111;
+    color: #00ff00;
+    font-weight: bold;
+  }
+  
+  .matrix-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-bottom: 20px;
+  }
+  
+  .matrix-table td {
+    padding: 5px;
+  }
+  
+  .matrix-input {
+    width: 60px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #00ff00;
+    background-color: #111;
+    color: #00ff00;
+  }
+  
+  .matrix-input:focus {
+    background-color: #222;
+  }
+  
+  .buttons button:hover {
+    background-color: #00a300;
+  }
+
+  label{
+    color: #dbead6;
+  }
+  
+  
+  /* Matrix theme styles */
+  body:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("matrix-bg.jpg") center/cover no-repeat;
+  }
+  footer {
+    text-align: center;
+    background-color: #ccecc4;
+    padding: 3px;
+}
+
+.matrix {
+    font-size: 14px;
+    color: #999;
+}
+.github-link {
+    color: #333;
+    text-decoration: none;
+}
